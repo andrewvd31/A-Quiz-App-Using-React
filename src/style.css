@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body{
+    background-color: rgb(2, 6, 112);
+    height: 100vh;
+}
+
+.main-container{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+}
+
+.loading{
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main-container,.menu{
+    min-height: 100vh;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quiz-title{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.btn{
+    font-family: 'Inter';
+    padding: 1rem 3rem;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question-container{
+    padding: 2.5rem 1rem;
+}
+
+.question{
+    font-size: 1.4rem;
+    font-family: 'poppins';
+    margin-bottom: 1.2rem;
+}
+
+.span-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+    color: rgb(127, 125, 125);
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.span-div span{
+    background-color: rgb(2, 6, 112);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    color: white;
+    font-family: 'Inter';
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.option-btn{
+    margin: 2rem auto;
+    width: 90%;
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    color: black;
+    border: 1px solid rgb(176, 123, 227);
+    transition: 0.5s;
+}
+
+.option-btn:hover{
+    background-color: rgb(2, 6, 112);
+    color: white;
+}
+
+.next-btn{
+    margin: 4rem auto 1rem;
+    width: 90%;
+    display: block;
+    background-color: rgb(2, 6, 112);
+    cursor: pointer;
+}
+
+.start-quiz,.restart-btn{
+    background-color: rgb(2, 6, 112);
+}
+
+.score-board{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
