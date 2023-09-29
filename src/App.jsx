@@ -38,8 +38,10 @@ function App() {
       setGameData(newGameData)
     } 
     catch (error) {
-      setLoading(true)
-      console.log(error)
+      setLoading(false)
+      return (
+        <p className='loading'>'Error...No data found</p>
+      )
     }
   }
 
